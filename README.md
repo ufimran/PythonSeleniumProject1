@@ -1,5 +1,5 @@
 # PythonSeleniumProject1
  Selenium Automation Learning
 
-
-Using Chrome Browser I created a script where I got the headline of the Website and then close the website.
+Opening Browser with an URL and fetching the Title of the webpage
+fixed DeprecationWarning: executable_path has been deprecated selenium

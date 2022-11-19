@@ -130,3 +130,17 @@ WebDriver BiDi listening on ws://127.0.0.1:49781
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ufimr\\AppData\\Local\\Temp\\rust_mozprofilexOvIkn\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:49781/devtools/browser/1d3ce2ce-ae6e-4deb-a678-e4645d80fdf4
 1668603778574	Marionette	INFO	Stopped listening on port 49797
+1668604189641	geckodriver	INFO	Listening on 127.0.0.1:54827
+1668604193133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54828" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ufimr\\AppData\\Local\\Temp\\rust_mozprofileBBJBc9"
+1668604193582	Marionette	INFO	Marionette enabled
+1668604193588	Marionette	INFO	Listening on port 54845
+WebDriver BiDi listening on ws://127.0.0.1:54828
+Read port: 54845
+1668604193955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ufimr\\AppData\\Local\\Temp\\rust_mozprofileBBJBc9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54828/devtools/browser/5d550cd3-35ab-4f39-a111-31cdd11a5106
+1668604201828	Marionette	INFO	Stopped listening on port 54845
+[Parent 2388, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 591: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 591: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
